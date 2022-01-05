@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+header, main, main section:first-of-type{
+    border-bottom: 1px solid lightgray;
+}
+
+h1, nav{
+    color: #659d89;
+}
+
+h2{
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 118vh;
+}
+
+header nav{
+margin: 3% 10%;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding-right: 1.5%;
+}
+
+header section:first-of-type{
+    width: 50%;
+    text-align: left;
+    margin: 10% 0 5% 10%;
+}
+
+header h1{
+    font-size: 4em;
+    margin-bottom: 2%;
+}
+
+header p{
+    font-size: 3.5em;
+}
+
+header section ul{
+text-align: right;
+}
+
+header section ul li{
+    margin: 0.3% 10% 1% 0;
+
+}
+
+header section ul li img{
+    width: 3%;
+}
+
+header a{
+    display: block;
+    margin: 5% 0 10% 10%;
+    color: #333;
+}
+
+header a::before{
+    content: "↓      ";
+    font-size: 150%;
+}
+
+
+main section:first-of-type article{
+    margin: 5% 0 8% 10%;
+}
+
+main section:first-of-type article h2{
+    margin-bottom: 2%;
+}
+
+main section:first-of-type article p{
+    color: #666;
+} 
+
+main section:first-of-type div:first-of-type{
+    width: 68%;
+    margin: 0 auto 8% auto;
+}
+
+main section:first-of-type div:first-of-type img{
+    display: inline-block;
+    width: 29.7%;
+}
+
+main section:first-of-type div:first-of-type img:hover, main section:nth-of-type(2) article div:first-of-type:hover{
+    box-shadow: 0 0 1em #666;
+}
+
+main section:first-of-type div:first-of-type img:nth-of-type(2), img:nth-of-type(5){
+    margin: 0 5%;
+}
+
+main section:first-of-type div:first-of-type img:nth-of-type(1), img:nth-of-type(2), img:nth-of-type(3){
+    padding-bottom: 5%;
+}
+
+main section:nth-of-type(2) h2{
+    margin: 5% 0 8% 10%;
+}
+
+main section:nth-of-type(2) article p{
+    color: #666;
+    font-size: 0.75em;
+    margin: 1em 0 1.5em 0;
+}
+
+main section:nth-of-type(2) article a{
+    color: #333;
+    display: inline-block;
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+main section:nth-of-type(2) article{
+    margin: 0% 8% 12% 16%;
+    text-align: center;
+}
+
+main section:nth-of-type(2) div aside{
+    width: 63%;
+    text-align: center;
+}
+
+main section:nth-of-type(2) article div img{
+    width: 63%;
+}
+
+main section:nth-of-type(2) article div{
+    margin-bottom: 10%;
+}
+
+main section:nth-of-type(2) article div:nth-of-type(odd), article div aside:nth-of-type(odd){
+    text-align: left;
+}
+
+main section:nth-of-type(2) article div:nth-of-type(even), article div aside:nth-of-type(even){
+    text-align: right;
+}
+
+footer{
+    text-align: center;
+    margin: 10% 0 0 0;
+}
+
+footer a, p{
+    color: #666;
+    font-size: 1.5em;
+}
+
+footer a::before{
+    content: "↑      ";
+    font-size: 1.5em;
+}
+
+footer p{
+    font-size: 1em;
+    padding: 10% 0 2% 0;
+}
